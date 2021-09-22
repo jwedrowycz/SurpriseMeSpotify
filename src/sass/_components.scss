@@ -1,0 +1,104 @@
+.custom-input {
+    padding: .9em .5em;
+    border-radius: 15px;
+    border: 2px solid $primary;
+    background-color: #343a4036;
+    width: 100%;
+    &:focus {
+        outline: $primary;
+    }
+    box-sizing: border-box;
+
+}
+
+.select-form {
+    width: 100%;
+}
+
+.style-chooser .vs__search::placeholder,
+.style-chooser .vs__dropdown-toggle,
+.style-chooser .vs__dropdown-menu {
+    border-radius: 15px;
+    width: 100%;
+    padding: .7em .5em;
+    border: 2px solid $primary;
+    
+    background-color: #343a4036;
+
+}
+
+.vs__search::placeholder {
+    background: none;
+}
+
+#vs1__combobox {
+    width: 100%;
+}
+
+
+.vs__dropdown-toggle {
+    background-color: $white;
+
+}
+
+#vs1__listbox {
+    background-color: $grey-d;
+    
+    li {
+        color: $primary;
+    }
+
+}
+.vs__search {
+    background: transparent;
+}
+
+.select-form {
+    width: 100%;
+}
+
+.custom-badge {
+    padding: .5em;
+    text-align: center;
+    background-color: $grey-d;
+    color: $primary;
+    border-radius: 15px;
+    border:none;
+    transition: .25s;
+    outline: 2px solid transparent;
+    box-sizing: border-box;
+
+    &:focus {
+        outline: $primary;
+    }
+
+    &:hover {
+        outline: 2px solid $primary;
+    }
+    &:disabled {
+        outline: 2px solid transparent;
+    }
+
+    &.delete {
+        padding: .5em 0.9em;
+        
+        &:hover {
+            outline: 2px solid red;
+            color: red;
+
+        }
+    }
+}
+
+.button-list {
+    padding-left: 0;
+}
+
+.custom-link {
+    color: $primary;
+    transition: .25s;
+    text-decoration: none;
+    &:hover {
+        color: $primary-dk;
+    }
+}
