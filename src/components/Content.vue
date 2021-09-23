@@ -5,7 +5,10 @@
 				<div class="col-lg-4">
 					<div class="info-badge p-3 my-2 m-lg-5">
 						<span>
-							It' simple. Just fill the data you see. Search for artist name, track name or genre and look what Spotify going to recommend you.
+							It' simple. Just fill the data you see. Search for artist name, track name or genre and look what Spotify is going to recommend you.
+						</span>
+						<span class="d-lg-none">
+							If you're on mobile phone or tablet, just press SPACE after typing.	
 						</span>
 					</div>
 				</div>
