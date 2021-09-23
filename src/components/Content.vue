@@ -40,7 +40,7 @@
 								</form>
 								<div v-if="artistSearchResult" class="col-lg-12 mt-4">
 									<div v-if="artistSearchResult.artists.total == 0">
-										<p><b>Sorry, I haven't found anything :(</b></p>
+										<p class="text-danger"><b>Sorry, I haven't found anything :(</b></p>
 									</div>
 									<ul class="button-list" v-for="result in artistSearchResult.artists.items" v-bind:key="result.id">
 											<button class="custom-badge" @click="submitArtist(result.id, result.name)">{{ result.name }}</button>
@@ -74,7 +74,7 @@
 						<div class="row mb-4">
 							<div v-if="trackSearchResult" class="col-lg-12 mt-4">
 								<div v-if="trackSearchResult.tracks.total == 0">
-									<p><b>Sorry, we haven't found anything :(</b></p>
+									<p class="text-danger"><b>Sorry, we haven't found anything :(</b></p>
 								</div>
 								<ul class="button-list" v-for="result in trackSearchResult.tracks.items" v-bind:key="result.id">
 									<button class="custom-badge"  @click="submitTrack(result.id, result.name)">{{ result.name }} - {{ result.artists[0].name }}</button>
