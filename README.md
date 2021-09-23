@@ -1,23 +1,24 @@
-# jk-it
+# Surprise Me Spotify!
 
-## Project setup
-```
-npm install
-```
+Application for recommending songs, based on Spotify Web API and Spotify recommendations.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Project stack
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- npm 6.14
+- VueJS 2.6
+- Spotify Web API
 
-### Lints and fixes files
+## Application setup
+
 ```
-npm run lint
+# Clone this repository
+$ git clone https://github.com/jwedrowycz/surprise-me-spotify.git
+
+# Install dependencies
+$ npm install
+
+# Run project in development
+$ npm run serve
 ```
 
 ### Customize configuration
