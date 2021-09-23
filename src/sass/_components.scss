@@ -4,6 +4,8 @@
     border: 2px solid $primary;
     background-color: #343a4036;
     width: 100%;
+    color: $primary-lt;
+
     &:focus {
         outline: $primary;
     }
@@ -51,6 +53,8 @@
 }
 .vs__search {
     background: transparent;
+    color: $primary-lt;
+
 }
 
 .select-form {
@@ -101,4 +105,10 @@
     &:hover {
         color: $primary-dk;
     }
+}
+
+.info-badge {
+    color: $primary;
+    background: $grey-d-t;
+    border-radius: 20px;
 }
