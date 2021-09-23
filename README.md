@@ -21,5 +21,9 @@ $ npm install
 $ npm run serve
 ```
 
+## Live Version (GitHub Pages)
+
+[SurpriseMeSpotify](https://jwedrowycz.github.io/SurpriseMeSpotify/)
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
