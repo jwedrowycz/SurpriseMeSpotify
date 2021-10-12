@@ -4,7 +4,7 @@ Application for recommending songs, based on Spotify Web API and Spotify recomme
 
 ## Project stack
 
-- npm 6.14
+- node 6.14
 - VueJS 2.6
 - Spotify Web API
 
